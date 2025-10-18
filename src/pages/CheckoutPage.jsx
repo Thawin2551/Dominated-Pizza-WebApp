@@ -4,7 +4,7 @@ import { useCart } from "../contexts/CartContext";
 import { Pizza, CreditCard, Truck, CheckCircle2 } from "lucide-react";
 import { useState } from "react";
 
-export default function CheckoutPage() {
+export default function CheckOutPage() {
   const { items, totalPrice, setItems } = useCart();
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
