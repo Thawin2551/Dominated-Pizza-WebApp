@@ -15,7 +15,7 @@ import Footer from "./components/Footer";
 
 // Pages
 import DealsPages from "./pages/DealsPages";
-import CheckoutPage from "./pages/CheckOutPage";   // <- ชื่อไฟล์ให้ตรง (อย่าใช้ CheckOutPage)
+import CheckoutPage from "./pages/CheckOutPage";
 import OrderSuccess from "./pages/OrderSuccess";
 
 // หน้า Home รวมทุกส่วนของหน้าแรก
