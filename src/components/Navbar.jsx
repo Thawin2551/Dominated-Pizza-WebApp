@@ -214,7 +214,7 @@ export default function Navbar() {
                   <button
                     onClick={() => {
                       setCartOpen(false);
-                      navigate("/checkout");
+                      navigate("/place_order");
                     }}
                     className="flex-1 bg-rose-600 text-white py-3 rounded-lg font-semibold hover:opacity-95 flex items-center justify-center gap-2"
                   >

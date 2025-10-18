@@ -138,7 +138,7 @@ export default function DealsPage() {
 
         {/* Checkout summary */}
         <button
-          onClick={() => navigate("/checkout")}
+          onClick={() => navigate("/place_order")}
           className="relative flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold px-5 py-2 rounded-full shadow-md transition"
         >
           {totalQty > 0 ? (
