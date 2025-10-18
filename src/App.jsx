@@ -15,7 +15,7 @@ import Footer from "./components/Footer";
 
 // Pages
 import DealsPages from "./pages/DealsPages";
-import CheckoutPage from "./pages/CheckOutPage";
+import CheckOutPage from "./pages/CheckOutPage";
 import OrderSuccess from "./pages/OrderSuccess";
 
 // หน้า Home รวมทุกส่วนของหน้าแรก
@@ -51,7 +51,7 @@ export default function App() {
           <Route path="/deals" element={<DealsPages />} />
 
           {/* เช็คบิล/ชำระเงิน และหน้าสำเร็จ */}
-          <Route path="/checkout" element={<CheckoutPage />} />
+          <Route path="/checkout" element={<CheckOutPage />} />
           <Route path="/order-success" element={<OrderSuccess />} />
         </Routes>
       </CartProvider>
