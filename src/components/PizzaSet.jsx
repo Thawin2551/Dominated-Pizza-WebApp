@@ -210,7 +210,7 @@ export default function PizzaSet() {
             >
               <button
                 onClick={closeCustomize}
-                className="absolute right-3 top-3 z-20 rounded-full border border-white/30 bg-white/50 p-2 text-gray-700 backdrop-blur hover:bg-white dark:bg-white/10 dark:text-white"
+                className="absolute right-3 top-3 z-20 rounded-full border border-white/30 bg-white/50 p-2 text-gray-700 backdrop-blur hover:bg-red-600 duration-300 dark:bg-white/10 dark:text-white"
               >
                 <X className="h-5 w-5" />
               </button>
