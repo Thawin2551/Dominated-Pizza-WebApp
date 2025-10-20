@@ -210,7 +210,7 @@ export default function PizzaSet() {
             >
               <button
                 onClick={closeCustomize}
-                className="absolute right-3 top-3 z-20 rounded-full border border-white/30 bg-white/50 p-2 text-gray-700 backdrop-blur hover:bg-red-600 duration-300 dark:bg-white/10 dark:text-white"
+                className="absolute right-3 top-3 z-20 cursor-pointer rounded-full border border-white bg-red-600 p-2 text-gray-700 backdrop-blur hover:bg-red-700 duration-300 dark:text-white"
               >
                 <X className="h-5 w-5" />
               </button>
@@ -289,7 +289,7 @@ export default function PizzaSet() {
                     <div className="inline-flex items-center gap-2">
                       <button
                         onClick={() => setQty((q) => Math.max(1, q - 1))}
-                        className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/30 bg-white/60 text-gray-800 shadow backdrop-blur transition hover:bg-white dark:bg-white/10 dark:text-white"
+                        className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/30 bg-white/60 hover:text-black text-gray-800 shadow backdrop-blur transition hover:bg-white dark:bg-white/10 dark:text-white"
                       >
                         <Minus className="h-4 w-4" />
                       </button>
@@ -298,7 +298,7 @@ export default function PizzaSet() {
                       </span>
                       <button
                         onClick={() => setQty((q) => q + 1)}
-                        className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/30 bg-white/60 text-gray-800 shadow backdrop-blur transition hover:bg-white dark:bg-white/10 dark:text-white"
+                        className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/30 bg-white/60 hover:text-black text-gray-800 shadow backdrop-blur transition hover:bg-white dark:bg-white/10 dark:text-white"
                       >
                         <Plus className="h-4 w-4" />
                       </button>

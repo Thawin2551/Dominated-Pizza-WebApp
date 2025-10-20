@@ -12,6 +12,7 @@ import {
 import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { useCart } from "../contexts/CartContext";
+import { Link } from "react-router-dom";
 import SearchAutoComplete from "./SearchAutoComplete";
 import MenuModal from "./MenuModal";
 
@@ -64,7 +65,7 @@ export default function Navbar() {
       >
         <nav className="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-3">
+          <a href="#" className="flex items-center gap-3">
             <img
               src="https://openclipart.org/image/800px/341088"
               alt="Logo"
@@ -73,7 +74,7 @@ export default function Navbar() {
             <span className="hidden md:inline font-semibold text-lg md:text-xl">
               Dominated Pizza
             </span>
-          </div>
+          </a>
 
           {/* Desktop search - centered */}
           <div className="hidden md:flex items-center justify-center flex-1 px-6">
